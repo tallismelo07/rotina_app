@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { -webkit-tap-highlight-color: transparent; }
+  html { font-size: 16px; }
+  body {
+    @apply bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100;
+    overscroll-behavior: none;
+  }
+  ::-webkit-scrollbar { display: none; }
+  scrollbar-width: none;
+}
+
+@layer utilities {
+  .safe-bottom { padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .glass {
+    @apply bg-white/80 dark:bg-neutral-900/80 backdrop-blur-md;
+  }
+}
