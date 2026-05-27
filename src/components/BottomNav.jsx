@@ -20,14 +20,14 @@ export function BottomNav() {
             <button
               key={key}
               onClick={() => setActiveTab(key)}
-              className="flex-1 flex flex-col items-center gap-1 py-3 transition-all active:scale-95"
+              className="flex-1 flex flex-col items-center gap-1.5 py-3.5 transition-all active:scale-95"
             >
               <Icon
-                size={22}
+                size={24}
                 className={active ? 'text-brand-600 dark:text-brand-400' : 'text-neutral-400 dark:text-neutral-600'}
                 strokeWidth={active ? 2.2 : 1.8}
               />
-              <span className={`text-[10px] font-medium ${active ? 'text-brand-600 dark:text-brand-400' : 'text-neutral-400 dark:text-neutral-600'}`}>
+              <span className={`text-[11px] font-medium ${active ? 'text-brand-600 dark:text-brand-400' : 'text-neutral-400 dark:text-neutral-600'}`}>
                 {label}
               </span>
             </button>

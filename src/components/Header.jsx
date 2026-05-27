@@ -11,7 +11,7 @@ export function Header() {
 
   return (
     <>
-      <header className="px-5 pt-12 pb-4">
+      <header className="px-5 pb-4 pt-safe-header">
         <div className="flex items-start justify-between">
           <div>
             <p className="text-xs font-medium text-neutral-400 dark:text-neutral-500 uppercase tracking-wide mb-0.5">

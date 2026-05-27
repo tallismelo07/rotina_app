@@ -118,7 +118,7 @@ export function HojePage() {
       {/* FAB */}
       <button
         onClick={() => { setEditingTask(null); setTaskModalOpen(true) }}
-        className="fixed bottom-24 right-5 w-14 h-14 bg-brand-600 text-white rounded-2xl shadow-lg flex items-center justify-center hover:bg-brand-800 transition-colors active:scale-95 z-40"
+        className="fixed bottom-28 right-5 w-14 h-14 bg-brand-600 text-white rounded-2xl shadow-lg flex items-center justify-center hover:bg-brand-800 transition-colors active:scale-95 z-40"
         aria-label="Nova tarefa"
       >
         <Plus size={24} />
